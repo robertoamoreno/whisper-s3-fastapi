@@ -2,6 +2,11 @@
 Whisper With s3 and FastAPI 
 
 
+Installation 
+pip3 install --no-cache-dir -r requirements.txt
+Install FFmpeg and whisper.cpp and build 
+
+
 Curl Example Upload File 
 
 curl --location 'http://localhost:8000/transcribe/' \
